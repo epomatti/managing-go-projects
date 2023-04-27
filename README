@@ -1,3 +1,11 @@
-Practice code to manage projects.
+Practice code to manage projects during Pluralsight course.
 
-This is a 
+A simple web server with packages, modules and embed:
+
+  go run .
+
+To run it with Vendoring:
+
+  go clean -modcache
+  go run .
+  go mod vendor -v
